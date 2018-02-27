@@ -1,0 +1,1 @@
+echo "SELECT patient_id,patient_first,patient_middle,patient_last,patient_sex,patient_dob from cmi_iris.patient;" | mysql -u root -h localhost -pdgfsty16 | tr "\t" "|" > /home/admin/demupload/demographics.txt

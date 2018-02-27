@@ -1,0 +1,1 @@
+php dump_billing_data.php > /home/pmi/data/`date '+%d%m%y'`.csv

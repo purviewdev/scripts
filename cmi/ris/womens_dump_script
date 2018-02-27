@@ -1,0 +1,1 @@
+php womens_dump_billing_data.php > /home/pmi/data/w_`date '+%d%m%y'`.csv
